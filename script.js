@@ -33,3 +33,8 @@ team.forEach(t => {
     </div>
   `;
 });
+
+function filterGallery(category) {
+  let items = document.querySelectorAll(".gallery-item");
+  
+}
