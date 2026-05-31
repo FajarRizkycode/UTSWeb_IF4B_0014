@@ -54,7 +54,11 @@ function filterGallery(category) {
 
 function validateForm() {
   let n = name.value, e = email.value, m = msg.value;
+    if (!n || !e || !m) {
+    alert("Isi semua field!");
+    return false;
+  }
 
-  
+
 }
 
