@@ -2,3 +2,9 @@ body{
     font-family: 'Segoe UI', sans-serif;
     transition: 0.3s;
 }
+
+.hero{
+    height: 100vh;
+    background: linear-gradient(135deg, #0d6efd, #00c6ff);
+
+}
