@@ -28,5 +28,10 @@ body{
   background: linear-gradient(135deg, #0d6efd, #00c6ff);
 }
 
+.gallery-item {
+  transition: 0.4s;
+}
+
+
 
 
