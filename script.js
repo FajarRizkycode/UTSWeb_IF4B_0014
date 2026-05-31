@@ -21,3 +21,15 @@ const team = [
   {name: "Alice", role: "Finance"},
   {name: "Bob", role: "Developer"}
 ];
+
+let container = document.getElementById("teamContainer");
+team.forEach(t => {
+  container.innerHTML += `
+    <div class="col-md-4">
+      <div class="card fintech-card text-center p-3">
+        <h5>${t.name}</h5>
+        <p>${t.role}</p>
+      </div>
+    </div>
+  `;
+});
