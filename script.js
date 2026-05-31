@@ -15,3 +15,9 @@ function counter(id, max) {
 counter("c1", 500);
 counter("c2", 300);
 counter("c3", 1000);
+
+const team = [
+  {name: "John Doe", role: "CEO"},
+  {name: "Alice", role: "Finance"},
+  {name: "Bob", role: "Developer"}
+];
