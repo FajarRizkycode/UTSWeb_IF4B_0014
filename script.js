@@ -12,3 +12,6 @@ function counter(id, max) {
     if (i >= max) clearInterval(interval);
   }, 30);
 }
+counter("c1", 500);
+counter("c2", 300);
+counter("c3", 1000);
