@@ -32,6 +32,10 @@ body{
   transition: 0.4s;
 }
 
+.gallery-item.hide{
+    display: none;
+}
+
 
 
 
