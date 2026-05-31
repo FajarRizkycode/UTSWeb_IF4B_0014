@@ -28,6 +28,17 @@ body{
   background: linear-gradient(135deg, #0d6efd, #00c6ff);
 }
 
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: 1s;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
+
 .gallery-item {
   transition: 0.4s;
 }
