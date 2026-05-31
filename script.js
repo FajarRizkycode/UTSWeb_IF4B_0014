@@ -52,3 +52,9 @@ function filterGallery(category) {
 
 }
 
+function validateForm() {
+  let n = name.value, e = email.value, m = msg.value;
+
+  
+}
+
