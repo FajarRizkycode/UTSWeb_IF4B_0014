@@ -59,6 +59,9 @@ function validateForm() {
     return false;
   }
 
+  alert("Berhasil dikirim!");
+  return true;
+
 
 }
 
