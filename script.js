@@ -1,5 +1,5 @@
 //Dark Mode
-function toggledark(){
+function toggleDark(){
     document.body.classList.toggle("bg-dark");
     document.body.classList.toggle("text-white");
 }
